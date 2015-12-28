@@ -1,0 +1,29 @@
+{
+  "name": "postcss-autoprefixer-stream",
+  "version": "0.0.1",
+  "description": "postcss-autoprefixer transform",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gonzalo-espinosa/postcss-autoprefixer-stream.git"
+  },
+  "keywords": [
+    "cartero",
+    "parcelify",
+    "postcss",
+    "autoprefixer",
+    "css"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gonzalo-espinosa/postcss-autoprefixer-stream/issues"
+  },
+  "homepage": "https://github.com/gonzalo-espinosa/postcss-autoprefixer-stream",
+  "dependencies": {
+    "through": "^2.3.8",
+    "postcss" : "^5.0.13",
+    "autoprefixer" : "^6.2.2"
+  }
+}

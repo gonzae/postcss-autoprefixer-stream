@@ -1,0 +1,9 @@
+body {
+  div.some-class {
+    color: green;
+  }
+}
+
+a {
+    display: flex;
+}
