@@ -22,8 +22,10 @@ fs.createReadStream( inputFile ).pipe( transform( inputFile, opts ) ).pipe( proc
 
 #usage
 
-### transform( file [, opts ] )
+### transform( file [, processOpts] [, autoprefixerOpts ] )
 
 `file` - the css file to transform
 
-`opts` - optional options hash passed through to `postcss.process`
+`processOpts` - optional options hash passed through to `postcss.process`
+
+`autoprefixerOpts` - optional options hash passed through to `autoprefixer` constructor
